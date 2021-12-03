@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="assets/x-icon" href="assets/logo.png">
+    <script src="contact.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="left-side">
+            <img src="assets/logo.png">
+            <ul>
+                <li><a href="index.html" class="list-active">Home</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <center>
+        <div class="form-contact">
+            <div style="margin-top: 50px; width: 300px;">
+                <form>
+                    <div style="margin-bottom: 15px; text-align: left; font-family: Arial, Helvetica, sans-serif;">
+                        <label for="input-name">Name</label>
+                        <input id="input-name" type="text" style=" box-sizing:border-box; width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(231, 231, 231); border-radius: 5px; border: 0;" />
+                    </div>
+                    <div style="margin-bottom: 15px; text-align: left; font-family: Arial, Helvetica, sans-serif;">
+                        <label for="input-email">Email</label>
+                        <input id="input-email" style="box-sizing:border-box; width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(231, 231, 231); border-radius: 5px; border: 0;" />
+                    </div>
+                    <div style="margin-bottom: 15px; text-align: left; font-family: Arial, Helvetica, sans-serif;">
+                        <label for="input-phone-number">Phone Number</label>
+                        <input id="input-phone-number" style="box-sizing:border-box; width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(231, 231, 231); border-radius: 5px; border: 0;" />
+                    </div>
+
+                    <div style="margin-bottom: 15px; text-align: left; font-family: Arial, Helvetica, sans-serif;">
+                        <label for="select-option">Subject</label>
+                        <select id="select-option" style="box-sizing:border-box; width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(231, 231, 231); border-radius: 5px; border: 0;">
+                    <option>Let's talk</option>
+                    <option>Let's colaboration</option>
+                    <option>I am hiring</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: 20px; text-align: left; font-family: Arial, Helvetica, sans-serif;">
+                        <label for="textarea">Your message</label>
+                        <textarea id="textarea" style="box-sizing:border-box; width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(231, 231, 231); border-radius: 5px; border: 0;"></textarea>
+                    </div>
+                    <div style="text-align: left; font-family: Arial, Helvetica, sans-serif;">
+                        <button type="button" onclick="submitForm()" style=" border-radius: 7px; background-color: rgb(250, 12, 12); color: white; padding: 9px; border: 0; height: 25%; width: 30%;">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </center>
+
+</body>
+
+</html>
